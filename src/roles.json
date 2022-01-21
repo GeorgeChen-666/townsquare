@@ -11,7 +11,7 @@
     "reminders": ["Townsfolk",
         "Wrong"],
     "setup": false,
-    "ability": "在游戏开始时，你会得知两名玩家其中一位的村名身份。"
+    "ability": "在游戏开始时，你会得知两名玩家其中一位的村民身份。"
   },
   {
     "id": "librarian",
@@ -291,7 +291,7 @@
   },
   {
     "id": "bureaucrat",
-    "name": "Bureaucrat",
+    "name": "官僚",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 1,
@@ -300,11 +300,11 @@
     "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
     "reminders": ["3 votes"],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow."
+    "ability": "每个夜晚，选择1名玩家（自己除外），他明天的选票计为3票。"
   },
   {
     "id": "thief",
-    "name": "Thief",
+    "name": "小偷",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 1,
@@ -313,11 +313,11 @@
     "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "reminders": ["Negative vote"],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow."
+    "ability": "每个夜晚，选择1名玩家（自己除外）：他明天的选票都是负面的。"
   },
   {
     "id": "gunslinger",
-    "name": "Gunslinger",
+    "name": "枪手",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 0,
@@ -326,11 +326,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die."
+    "ability": "每个白天，在有人开始投票后，你可以选择杀死1个投过票的玩家。"
   },
   {
     "id": "scapegoat",
-    "name": "Scapegoat",
+    "name": "替罪羊",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 0,
@@ -339,11 +339,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If a player of your alignment is executed, you might be executed instead."
+    "ability": "如果你的阵营中有人被处决，你有可能会替他被处决。"
   },
   {
     "id": "beggar",
-    "name": "Beggar",
+    "name": "乞丐",
     "edition": "tb",
     "team": "traveler",
     "firstNight": 0,
@@ -352,7 +352,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment."
+    "ability": "你必须使用投票指示物投票。死亡的玩家可以选择将他们的标记物给你。一旦这么做了，你就加入其阵营。"
   },
   {
     "id": "grandmother",
@@ -694,7 +694,7 @@
   },
   {
     "id": "apprentice",
-    "name": "Apprentice",
+    "name": "学徒",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 1,
@@ -703,11 +703,11 @@
     "otherNightReminder": "",
     "reminders": ["Is the Apprentice"],
     "setup": false,
-    "ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil)."
+    "ability": "在你的第一个晚上，你可以得到一个村民技能（好人），或一个爪牙技能（邪恶）"
   },
   {
     "id": "matron",
-    "name": "Matron",
+    "name": "女舍监",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
@@ -716,11 +716,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private."
+    "ability": "每天，你可以选择3对玩家互相交换座位，玩家们不得离开作为私下交谈。"
   },
   {
     "id": "judge",
-    "name": "Judge",
+    "name": "法官",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
@@ -729,11 +729,11 @@
     "otherNightReminder": "",
     "reminders": ["No ability"],
     "setup": false,
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail."
+    "ability": "每局游戏仅限一次，如果一名玩家被选出，你可以裁决本次投票是否有效。"
   },
   {
     "id": "bishop",
-    "name": "Bishop",
+    "name": "主教",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
