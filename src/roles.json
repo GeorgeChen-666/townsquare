@@ -915,11 +915,11 @@
     "otherNightReminder": "If today was the Juggler\u2019s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",
     "reminders": ["Correct"],
     "setup": false,
-    "ability": "在第一天，公开推测On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
+    "ability": "在第一天，公开推测5名玩家的身份。在当晚，你会得知你猜对了几个。"
   },
   {
     "id": "sage",
-    "name": "Sage",
+    "name": "圣人",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
@@ -928,11 +928,11 @@
     "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
     "reminders": [],
     "setup": false,
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players."
+    "ability": "如果恶魔杀了你，你会得知他是某两个玩家中的一个。"
   },
   {
     "id": "mutant",
-    "name": "Mutant",
+    "name": "变种人",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
@@ -941,11 +941,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you are \u201Cmad\u201D about being an Outsider, you might be executed."
+    "ability": "如果你作为外来者“疯了”，那你有可能被处死。"
   },
   {
     "id": "sweetheart",
-    "name": "Sweetheart",
+    "name": "甜心宝贝",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
@@ -954,11 +954,11 @@
     "otherNightReminder": "Choose a player that is drunk.",
     "reminders": ["Drunk"],
     "setup": false,
-    "ability": "When you die, 1 player is drunk from now on."
+    "ability": "如果你死了，1名玩家从现在起变为醉酒状态。"
   },
   {
     "id": "barber",
-    "name": "Barber",
+    "name": "理发师",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
@@ -967,11 +967,11 @@
     "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
     "reminders": ["Haircuts tonight"],
     "setup": false,
-    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters."
+    "ability": "如果你死亡，恶魔可能选择2名玩家（非恶魔），两个人交换身份"
   },
   {
     "id": "klutz",
-    "name": "Klutz",
+    "name": "呆瓜",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
@@ -980,11 +980,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses."
+    "ability": "当你得知你已经死了时，公开选择一名玩家；如果这名玩家是邪恶阵营，你的阵营失败。"
   },
   {
     "id": "eviltwin",
-    "name": "Evil Twin",
+    "name": "邪恶双子",
     "edition": "snv",
     "team": "minion",
     "firstNight": 23,
@@ -993,11 +993,11 @@
     "otherNightReminder": "",
     "reminders": ["Twin"],
     "setup": false,
-    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live."
+    "ability": "你和一个对方玩家互相了解。如果善良的双子玩家被处决，邪恶就会获胜。如果你们两个都活着，善良玩家就不会赢。"
   },
   {
     "id": "witch",
-    "name": "Witch",
+    "name": "女巫",
     "edition": "snv",
     "team": "minion",
     "firstNight": 24,
@@ -1006,11 +1006,11 @@
     "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
     "reminders": ["Cursed"],
     "setup": false,
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
+    "ability": "每晚选择一名玩家；如果明天他被选中，你们同归于尽。如果3名或以下玩家活着，这个能力无效。"
   },
   {
     "id": "cerenovus",
-    "name": "Cerenovus",
+    "name": "附身魔",
     "edition": "snv",
     "team": "minion",
     "firstNight": 25,
@@ -1019,7 +1019,7 @@
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": ["Mad"],
     "setup": false,
-    "ability": "Each night, choose a player & a good character: they are \u201Cmad\u201D they are this character tomorrow, or might be executed."
+    "ability": "每天晚上，选择一名玩家并指一个好角色；如果这名玩家同意，那他就疯了，如果拒绝他可能被处死。"
   },
   {
     "id": "pithag",
