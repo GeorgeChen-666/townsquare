@@ -743,11 +743,11 @@
     "reminders": ["Nominate good",
         "Nominate evil"],
     "setup": false,
-    "ability": "Only the Storyteller can nominate. At least 1 opposite player must be nominated each day."
+    "ability": "只有主持人可以提名。每天至少提名1名对手玩家。"
   },
   {
     "id": "voudon",
-    "name": "Voudon",
+    "name": "乌东",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
@@ -756,11 +756,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required."
+    "ability": "只有你和死者才能投票，他们不需要标记物，不需要达到多数票。"
   },
   {
     "id": "clockmaker",
-    "name": "Clockmaker",
+    "name": "钟表匠",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 40,
@@ -769,11 +769,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You start knowing how many steps from the Demon to its nearest Minion."
+    "ability": "游戏开始时，你知道恶魔离他最新的爪牙有多少个身位。"
   },
   {
     "id": "dreamer",
-    "name": "Dreamer",
+    "name": "梦想家",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 41,
@@ -782,11 +782,11 @@
     "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct."
+    "ability": "每个夜晚，选择一名玩家（不能是自己和旅行者）；这名玩家可以了解一名好人身份一名坏人身份，其中一个是对的。"
   },
   {
     "id": "snakecharmer",
-    "name": "Snake Charmer",
+    "name": "耍蛇人",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 20,
@@ -795,11 +795,11 @@
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": ["Poisoned"],
     "setup": false,
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned."
+    "ability": "每个夜晚，选择一名活着的玩家；如果是恶魔，则与你交换身份并且与你结盟，然后此人中毒。"
   },
   {
     "id": "mathematician",
-    "name": "Mathematician",
+    "name": "数学家",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 50,
@@ -808,11 +808,11 @@
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
     "reminders": ["Abnormal"],
     "setup": false,
-    "ability": "Each night, you learn how many players\u2019 abilities worked abnormally (since dawn) due to another character's ability."
+    "ability": "每个夜晚，你将了解有多少个玩家的能力因为其他玩家的能力而施展异常。"
   },
   {
     "id": "flowergirl",
-    "name": "Flowergirl",
+    "name": "卖花女",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
@@ -822,11 +822,11 @@
     "reminders": ["Demon voted",
         "Demon not voted"],
     "setup": false,
-    "ability": "Each night*, you learn if a Demon voted today."
+    "ability": "每天晚上*，你都知道今天是否有恶魔投票。"
   },
   {
     "id": "towncrier",
-    "name": "Town Crier",
+    "name": "镇长",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
@@ -836,11 +836,11 @@
     "reminders": ["Minions not nominated",
         "Minion nominated"],
     "setup": false,
-    "ability": "Each night*, you learn if a Minion nominated today."
+    "ability": "每天晚上*，你都知道今天是否有爪牙投票。"
   },
   {
     "id": "oracle",
-    "name": "Oracle",
+    "name": "神谕",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
@@ -849,11 +849,11 @@
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night*, you learn how many dead players are evil."
+    "ability": "每天晚上*，你都知道有多少死去的玩家是邪恶的。"
   },
   {
     "id": "savant",
-    "name": "Savant",
+    "name": "学者",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
@@ -862,11 +862,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false."
+    "ability": "每天白天，你都可以去拜访主持人，私下请教2件事；一件是真的一件是假的。"
   },
   {
     "id": "seamstress",
-    "name": "Seamstress",
+    "name": "女裁缝",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 42,
@@ -875,11 +875,11 @@
     "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
     "reminders": ["No ability"],
     "setup": false,
-    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment."
+    "ability": "每场游戏仅限一次，夜晚，你可以选择2名玩家（自己除外）；你将了解他们是否是同一阵营。"
   },
   {
     "id": "philosopher",
-    "name": "Philosopher",
+    "name": "哲学家",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 2,
@@ -889,11 +889,11 @@
     "reminders": ["Drunk",
         "Is the Philosopher"],
     "setup": false,
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk."
+    "ability": "每场游戏仅限一次，夜晚，你选择一个好角色的能力来使用。如果这个角色在场，则这个角色醉酒。"
   },
   {
     "id": "artist",
-    "name": "Artist",
+    "name": "艺术家",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
@@ -902,11 +902,11 @@
     "otherNightReminder": "",
     "reminders": ["No ability"],
     "setup": false,
-    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question."
+    "ability": "每场游戏仅限一次，在白天，你可以私下询问主持人一个（是/否）"
   },
   {
     "id": "juggler",
-    "name": "Juggler",
+    "name": "杂耍人",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
@@ -915,7 +915,7 @@
     "otherNightReminder": "If today was the Juggler\u2019s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",
     "reminders": ["Correct"],
     "setup": false,
-    "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
+    "ability": "在第一天，公开推测On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
   },
   {
     "id": "sage",
